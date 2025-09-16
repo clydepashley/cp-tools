@@ -8,7 +8,7 @@ public class RandomizeTransforms : EditorWindow
     Vector3 scaleAmount = Vector3.zero;
     int randomSeed = 0;
 
-    [MenuItem("Tools/Randomize Transforms")]
+    [MenuItem("CP_Tools/Randomize Transforms")]
     static void Init()
     {
         RandomizeTransforms window = (RandomizeTransforms)EditorWindow.GetWindow(typeof(RandomizeTransforms));
